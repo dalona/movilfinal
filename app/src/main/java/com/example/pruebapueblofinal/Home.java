@@ -26,7 +26,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        botonHoteles=findViewById(R.id.botonHoteles);
+        botonHoteles=findViewById(R.id.botonhoteles);
 
         botonHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
